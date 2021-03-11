@@ -1,0 +1,15 @@
+#Card-Img{
+    border-radius: 10px;
+    width: 80%;
+    height: inherit;
+    padding: 10px;
+    margin-left: 25px;
+}
+.card-style{
+    color: white;
+
+}
+.card-style:hover{
+    background-color: whitesmoke;
+    color:rgb(0, 221, 250);
+}
