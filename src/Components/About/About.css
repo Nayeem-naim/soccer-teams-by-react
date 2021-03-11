@@ -10,7 +10,7 @@
     width: 100%;
     border-radius: 10px;
     position: relative;
-    opacity: 50%;
+    opacity: 0.5;
  }
 #row{
     background-color: pink;
