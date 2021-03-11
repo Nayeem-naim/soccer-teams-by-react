@@ -13,7 +13,7 @@ import { faTransgender, faFutbol, faFlag, faMapMarkerAlt } from '@fortawesome/fr
 
 const About = (props) => {
     const { intFormedYear, strCountry, strSport, strGender, strTeamBadge, strTeam, strTeamBanner, strStadiumDescription, strWebsite, strTwitter, strYoutube } = props.team;
-    const image = strGender === male ? <img src={male}/> : <img src={female} alt=""/>
+    const image = strGender === male ? <img src={male}/> : <img src={female}/>
     return (
         <div className="container">
             <div className="text-center mt-4 mb-4">
