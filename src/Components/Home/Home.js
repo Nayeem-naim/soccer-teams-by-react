@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Teams from '../Teams/Teams';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import banner from '../Photo/banner.png';
-import style from './Home.css'
+import './Home.css';
 
 const Home = () => {
    const [teams, setTeams] = useState([])

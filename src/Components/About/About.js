@@ -7,7 +7,6 @@ import { FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import male from '../Photo/male.png';
 import female from '../Photo/female.png';
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTransgender, faFutbol, faFlag, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
