@@ -19,11 +19,14 @@ function App() {
           <Route exact path="/">
           <Home/>
           </Route>
+          <Route path="/home">
+          <Home/>
+          </Route>
 
           <Route path="/about/:teamId">
             <TeamDetails/>
           </Route>
-          <Route path="/webSite">
+          <Route path="/webSite/:webSite">
            <Social></Social>
           </Route>
           
