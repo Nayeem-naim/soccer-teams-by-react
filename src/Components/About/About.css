@@ -1,7 +1,7 @@
 #image{
     height: 100px;
     width: 100px;
-    margin-top: -250px;
+    margin-top: -220px;
     overflow: visible;
     position: relative;
 
@@ -10,6 +10,7 @@
     width: 100%;
     border-radius: 10px;
     position: relative;
+    opacity: 35%;
  }
 #row{
     background-color: pink;
@@ -17,6 +18,10 @@
     padding: 30px;
     margin-top: 50px;
     border-radius: 15px;
+}
+#row:hover{
+    background-color: black;
+    color: pink;
 }
 #male-female{
     width: 350px;
@@ -29,6 +34,10 @@
     background-color: cyan;
     padding: 20px;
     border-radius: 10px;
+}
+.description:hover{
+    background-color: purple;
+    color: whitesmoke;
 }
 .icon{
     margin-top: 30px;
