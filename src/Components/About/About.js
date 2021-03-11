@@ -35,6 +35,7 @@ const About = (props) => {
 
                 <Col sm={4}>
                     <img id="male-female" src={male} alt="" />
+                    <img src={image} alt=""/>
                 </Col>
             </Row>
             <div className="description">
